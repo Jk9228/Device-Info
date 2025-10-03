@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F19ECA2E7C615B009012CD /* PPT_ConvertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F19EC92E7C615B009012CD /* PPT_ConvertApp.swift */; };
+		C5F19ECC2E7C615B009012CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F19ECB2E7C615B009012CD /* ContentView.swift */; };
+		C5F19ECE2E7C615D009012CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F19ECD2E7C615D009012CD /* Assets.xcassets */; };
+		C5F19ED12E7C615D009012CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F19ED02E7C615D009012CD /* Preview Assets.xcassets */; };
+		C5F19EDC2E7C615E009012CD /* PPT_ConvertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F19EDB2E7C615E009012CD /* PPT_ConvertTests.swift */; };
+		C5F19EE62E7C615E009012CD /* PPT_ConvertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F19EE52E7C615E009012CD /* PPT_ConvertUITests.swift */; };
+		C5F19EE82E7C615E009012CD /* PPT_ConvertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F19EE72E7C615E009012CD /* PPT_ConvertUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5F19ED82E7C615E009012CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F19EBE2E7C615A009012CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F19EC52E7C615B009012CD;
+			remoteInfo = "PPT Convert";
+		};
+		C5F19EE22E7C615E009012CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F19EBE2E7C615A009012CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F19EC52E7C615B009012CD;
+			remoteInfo = "PPT Convert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5F19EC62E7C615B009012CD /* PPT Convert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PPT Convert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F19EC92E7C615B009012CD /* PPT_ConvertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPT_ConvertApp.swift; sourceTree = "<group>"; };
+		C5F19ECB2E7C615B009012CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5F19ECD2E7C615D009012CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F19ED02E7C615D009012CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5F19ED22E7C615D009012CD /* PPT_Convert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PPT_Convert.entitlements; sourceTree = "<group>"; };
+		C5F19ED72E7C615E009012CD /* PPT ConvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PPT ConvertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F19EDB2E7C615E009012CD /* PPT_ConvertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPT_ConvertTests.swift; sourceTree = "<group>"; };
+		C5F19EE12E7C615E009012CD /* PPT ConvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PPT ConvertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F19EE52E7C615E009012CD /* PPT_ConvertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPT_ConvertUITests.swift; sourceTree = "<group>"; };
+		C5F19EE72E7C615E009012CD /* PPT_ConvertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPT_ConvertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F19EC32E7C615B009012CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F19ED42E7C615E009012CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F19EDE2E7C615E009012CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F19EBD2E7C615A009012CD = {
+			isa = PBXGroup;
+			children = (
+				C5F19EC82E7C615B009012CD /* PPT Convert */,
+				C5F19EDA2E7C615E009012CD /* PPT ConvertTests */,
+				C5F19EE42E7C615E009012CD /* PPT ConvertUITests */,
+				C5F19EC72E7C615B009012CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F19EC72E7C615B009012CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F19EC62E7C615B009012CD /* PPT Convert.app */,
+				C5F19ED72E7C615E009012CD /* PPT ConvertTests.xctest */,
+				C5F19EE12E7C615E009012CD /* PPT ConvertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F19EC82E7C615B009012CD /* PPT Convert */ = {
+			isa = PBXGroup;
+			children = (
+				C5F19EC92E7C615B009012CD /* PPT_ConvertApp.swift */,
+				C5F19ECB2E7C615B009012CD /* ContentView.swift */,
+				C5F19ECD2E7C615D009012CD /* Assets.xcassets */,
+				C5F19ED22E7C615D009012CD /* PPT_Convert.entitlements */,
+				C5F19ECF2E7C615D009012CD /* Preview Content */,
+			);
+			path = "PPT Convert";
+			sourceTree = "<group>";
+		};
+		C5F19ECF2E7C615D009012CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5F19ED02E7C615D009012CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5F19EDA2E7C615E009012CD /* PPT ConvertTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F19EDB2E7C615E009012CD /* PPT_ConvertTests.swift */,
+			);
+			path = "PPT ConvertTests";
+			sourceTree = "<group>";
+		};
+		C5F19EE42E7C615E009012CD /* PPT ConvertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F19EE52E7C615E009012CD /* PPT_ConvertUITests.swift */,
+				C5F19EE72E7C615E009012CD /* PPT_ConvertUITestsLaunchTests.swift */,
+			);
+			path = "PPT ConvertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F19EC52E7C615B009012CD /* PPT Convert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F19EEB2E7C615E009012CD /* Build configuration list for PBXNativeTarget "PPT Convert" */;
+			buildPhases = (
+				C5F19EC22E7C615B009012CD /* Sources */,
+				C5F19EC32E7C615B009012CD /* Frameworks */,
+				C5F19EC42E7C615B009012CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PPT Convert";
+			productName = "PPT Convert";
+			productReference = C5F19EC62E7C615B009012CD /* PPT Convert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5F19ED62E7C615E009012CD /* PPT ConvertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F19EEE2E7C615E009012CD /* Build configuration list for PBXNativeTarget "PPT ConvertTests" */;
+			buildPhases = (
+				C5F19ED32E7C615E009012CD /* Sources */,
+				C5F19ED42E7C615E009012CD /* Frameworks */,
+				C5F19ED52E7C615E009012CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F19ED92E7C615E009012CD /* PBXTargetDependency */,
+			);
+			name = "PPT ConvertTests";
+			productName = "PPT ConvertTests";
+			productReference = C5F19ED72E7C615E009012CD /* PPT ConvertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5F19EE02E7C615E009012CD /* PPT ConvertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F19EF12E7C615E009012CD /* Build configuration list for PBXNativeTarget "PPT ConvertUITests" */;
+			buildPhases = (
+				C5F19EDD2E7C615E009012CD /* Sources */,
+				C5F19EDE2E7C615E009012CD /* Frameworks */,
+				C5F19EDF2E7C615E009012CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F19EE32E7C615E009012CD /* PBXTargetDependency */,
+			);
+			name = "PPT ConvertUITests";
+			productName = "PPT ConvertUITests";
+			productReference = C5F19EE12E7C615E009012CD /* PPT ConvertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F19EBE2E7C615A009012CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C5F19EC52E7C615B009012CD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C5F19ED62E7C615E009012CD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C5F19EC52E7C615B009012CD;
+					};
+					C5F19EE02E7C615E009012CD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C5F19EC52E7C615B009012CD;
+					};
+				};
+			};
+			buildConfigurationList = C5F19EC12E7C615A009012CD /* Build configuration list for PBXProject "PPT Convert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F19EBD2E7C615A009012CD;
+			productRefGroup = C5F19EC72E7C615B009012CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F19EC52E7C615B009012CD /* PPT Convert */,
+				C5F19ED62E7C615E009012CD /* PPT ConvertTests */,
+				C5F19EE02E7C615E009012CD /* PPT ConvertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F19EC42E7C615B009012CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F19ED12E7C615D009012CD /* Preview Assets.xcassets in Resources */,
+				C5F19ECE2E7C615D009012CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F19ED52E7C615E009012CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F19EDF2E7C615E009012CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F19EC22E7C615B009012CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F19ECC2E7C615B009012CD /* ContentView.swift in Sources */,
+				C5F19ECA2E7C615B009012CD /* PPT_ConvertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F19ED32E7C615E009012CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F19EDC2E7C615E009012CD /* PPT_ConvertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F19EDD2E7C615E009012CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F19EE62E7C615E009012CD /* PPT_ConvertUITests.swift in Sources */,
+				C5F19EE82E7C615E009012CD /* PPT_ConvertUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5F19ED92E7C615E009012CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F19EC52E7C615B009012CD /* PPT Convert */;
+			targetProxy = C5F19ED82E7C615E009012CD /* PBXContainerItemProxy */;
+		};
+		C5F19EE32E7C615E009012CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F19EC52E7C615B009012CD /* PPT Convert */;
+			targetProxy = C5F19EE22E7C615E009012CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5F19EE92E7C615E009012CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5F19EEA2E7C615E009012CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C5F19EEC2E7C615E009012CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PPT Convert/PPT_Convert.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PPT Convert/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PT3NL5FCV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This app needs to control Keynote/PowerPoint to convert presentations";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.PPT-Convert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5F19EED2E7C615E009012CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PPT Convert/PPT_Convert.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PPT Convert/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PT3NL5FCV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This app needs to control Keynote/PowerPoint to convert presentations";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.PPT-Convert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C5F19EEF2E7C615E009012CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PT3NL5FCV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.PPT-ConvertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPT Convert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PPT Convert";
+			};
+			name = Debug;
+		};
+		C5F19EF02E7C615E009012CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PT3NL5FCV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.PPT-ConvertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPT Convert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PPT Convert";
+			};
+			name = Release;
+		};
+		C5F19EF22E7C615E009012CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PT3NL5FCV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.PPT-ConvertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PPT Convert";
+			};
+			name = Debug;
+		};
+		C5F19EF32E7C615E009012CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2PT3NL5FCV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.PPT-ConvertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PPT Convert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F19EC12E7C615A009012CD /* Build configuration list for PBXProject "PPT Convert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F19EE92E7C615E009012CD /* Debug */,
+				C5F19EEA2E7C615E009012CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F19EEB2E7C615E009012CD /* Build configuration list for PBXNativeTarget "PPT Convert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F19EEC2E7C615E009012CD /* Debug */,
+				C5F19EED2E7C615E009012CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F19EEE2E7C615E009012CD /* Build configuration list for PBXNativeTarget "PPT ConvertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F19EEF2E7C615E009012CD /* Debug */,
+				C5F19EF02E7C615E009012CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F19EF12E7C615E009012CD /* Build configuration list for PBXNativeTarget "PPT ConvertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F19EF22E7C615E009012CD /* Debug */,
+				C5F19EF32E7C615E009012CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F19EBE2E7C615A009012CD /* Project object */;
+}
