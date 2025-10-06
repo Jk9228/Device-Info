@@ -14,7 +14,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // 應用程式啟動後的設定
     }
     
-    func applicationWillTerminate(_ anotification: Notification) {
+    func applicationWillTerminate(_ notification: Notification) {
         // 應用程式終止前的清理
     }
     
